@@ -1,7 +1,7 @@
 # Optimisation-Module-Installations
 
 # Getting Started
-You will use Jupyter Notebook, Julia (v1.8.5), and Xpress throughout the course. Please follow the installation guidance below **sequentially**.
+You will use Jupyter Notebook, Julia (v1.8.5), and Xpress throughout the course. Please follow the installation guidance below **sequentially**. Note that the screenshots in this instruction set are from an earlier version of Julia.
 
 ## Install Anaconda and Jupyter Notebook
 - If you already have Jupyter Notebook installed, go ahead and install Julia (jump right into the next step)
