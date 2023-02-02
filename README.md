@@ -68,13 +68,17 @@ You will use Jupyter Notebook, Julia (v1.8.5), and Xpress throughout the course.
     - *For Mac*
         - Open your terminal
 
-- Type in ``export XPRESSDIR=YOUR_XPRESS_INSTALL_DIRECTORY`` and press Enter
+        -  Type in ``export XPRESSDIR=YOUR_XPRESS_INSTALL_DIRECTORY`` and press Enter
 
             replace the ``YOUR_XPRESS_INSTALL_DIRECTORY`` with your own Xpress installation path
             
             The default path is "/Applications/FICO Xpress/Xpress Workbench.app/Contents/Recourses/xpressmp". 
             
             So the command for you can be ``export XPRESSDIR="/Applications/FICO Xpress/Xpress Workbench.app/Contents/Recourses/xpressmp"``
+            
+            One some Macs with Intel Chips, the path can be "/Applications/FICO Xpress/xpressmp" so you may have to type ``export XPRESSDIR="/Applications/FICO Xpress/xpressmp"``
+            
+           You may have to navigate the directories to find out where xpressmp directory is located on your machine and use the appropriate path
             
             
         - Check whether the path is set by typing in ``echo $XPRESSDIR`` and press Enter
